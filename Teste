@@ -1,1 +1,163 @@
 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="icon" href="https://thumbs.dreamstime.com/z/s%C3%ADmbolo-de-perfil-masculino-inteligente-retrato-estilo-desenho-animado-m%C3%ADnimo-166146967.jpg" type="image/x-icon">
+    <title>Meu Portfólio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+
+        nav {
+            margin-top: 10px;
+        }
+
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+
+        main {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+        }
+
+
+        section {
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+
+        ul li {
+            background: #ddd;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+
+        .projeto {
+            margin-top: 20px;
+        }
+
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nome do Aluno</h1>
+        <p>Desenvolvedor Web</p>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <p>Breve descrição sobre você, suas habilidades e interesses.</p>
+        </section>
+
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Outra habilidade</li>
+            </ul>
+        </section>
+
+
+        <section id="projetos">
+            <h2>Projetos</h2>
+            <div class="projeto">
+                <h3>Projeto 1</h3>
+                <p>Breve descrição do projeto.</p>
+            </div>
+            <div class="projeto">
+                <h3>Projeto 2</h3>
+                <p>Breve descrição do projeto.</p>
+            </div>
+        </section>
+    </main>
+
+
+    <footer id="contato">
+        <h2>Contato</h2>
+        <p>Email: seuemail@exemplo.com</p>
+    </footer>
+</body>
+</html>
+
+
+
